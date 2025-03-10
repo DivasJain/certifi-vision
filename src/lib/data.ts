@@ -1,4 +1,5 @@
 
+
 export const personalInfo = {
   name: "Divas Jain",
   title: "Full-Stack Developer",
@@ -93,25 +94,25 @@ export const certifications = [
     title: "JavaScript Algorithms and Data Structures",
     issuer: "freeCodeCamp",
     date: "March 5, 2025",
-    image: "/lovable-uploads/ce21e2ce-7a6a-4862-a48c-9b9a8f1fbfa4.png"
+    image: "/lovable-uploads/375ed51a-b483-4db7-b950-95bb9c9c18b1.png"
   },
   {
-    title: "Solutions Architecture Job Simulation",
-    issuer: "AWS APAC",
-    date: "December 5, 2024",
-    image: "/lovable-uploads/d2216ab5-6f38-4940-a21a-8527085d7446.png"
+    title: "Responsive Web Design",
+    issuer: "freeCodeCamp",
+    date: "February 25, 2025",
+    image: "/lovable-uploads/0bf12c4b-b1c1-4ab5-8f65-4c478bb46349.png"
   },
   {
-    title: "Advanced Software Engineering Job Simulation",
-    issuer: "Walmart USA",
-    date: "December 5, 2024",
-    image: "/lovable-uploads/99b913f8-5dda-4a62-9f0a-92bb86b00913.png"
+    title: "Data Science Ethics",
+    issuer: "University of Michigan",
+    date: "July 18, 2024",
+    image: "/lovable-uploads/e2c078a7-1339-4712-9311-73042227fbb0.png"
   },
   {
     title: "Complete Flutter Course - iOS/Android Apps",
     issuer: "LearnCodeOnline",
     date: "August 17, 2023",
-    image: "/lovable-uploads/407ab7fa-f4c3-41de-8ac5-93f59ed39cfc.png"
+    image: "/lovable-uploads/881d1359-b096-4e27-9804-33cafa86a633.png"
   }
 ];
 
