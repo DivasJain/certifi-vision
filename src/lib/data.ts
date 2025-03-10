@@ -1,11 +1,12 @@
+
 export const personalInfo = {
   name: "Divas Jain",
   title: "Full-Stack Developer",
   email: "divasjain1111@gmail.com",
   phone: "+91 9170400664",
   location: "Kolkata, West Bengal, India",
-  linkedin: "www.linkedin.com/in/divas-jain-440397301/",
-  github: "github.com/Divasjain01/",
+  linkedin: "https://www.linkedin.com/in/divas-jain-440397301/",
+  github: "https://github.com/Divasjain01/",
 };
 
 export const about = {
