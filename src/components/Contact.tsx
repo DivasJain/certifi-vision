@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { personalInfo } from "@/lib/data";
-import { Mail, Phone, MapPin, Github, Linkedin, ArrowRight } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -96,11 +96,6 @@ const Contact = () => {
                 title="Phone"
                 value={personalInfo.phone}
                 link={`tel:${personalInfo.phone}`}
-              />
-              <ContactItem
-                icon={MapPin}
-                title="Location"
-                value={personalInfo.location}
               />
               <ContactItem
                 icon={Linkedin}

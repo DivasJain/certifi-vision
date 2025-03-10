@@ -1,12 +1,11 @@
-
 export const personalInfo = {
   name: "Divas Jain",
   title: "Full-Stack Developer",
   email: "divasjain1111@gmail.com",
   phone: "+91 9170400664",
-  location: "17/1 Gupt Krishna Pal Lane, Kolkata, West Bengal, India",
-  linkedin: "linkedin.com/in/DivasJain",
-  github: "github.com/Divasjain",
+  location: "Kolkata, West Bengal, India",
+  linkedin: "www.linkedin.com/in/divas-jain-440397301/",
+  github: "github.com/Divasjain01/",
 };
 
 export const about = {
@@ -21,7 +20,8 @@ export const experience = [
     description: [
       "Worked on enhancing an existing website implementing key improvements, reducing page load times by 30% through dynamic content loading with asynchronous JavaScript.",
       "Created interactive hover effects across 15+ product pages, increasing user engagement metrics by 25%, and optimized event handling for over 50 UI elements, improving browsing responsiveness by 40%."
-    ]
+    ],
+    image: "/lovable-uploads/dfcf83cb-d435-4a41-9444-75bdca24d9a7.png"
   },
   {
     position: "Advanced Software Engineering Virtual Experience Program",
@@ -30,7 +30,8 @@ export const experience = [
     description: [
       "Developed a novel version of a heap data structure in Java for Walmart's shipping department, showcasing strong problem-solving skills.",
       "Created an entity relationship diagram to design a new database accounting for all requirements provided by Walmart's pet department."
-    ]
+    ],
+    image: "/lovable-uploads/99b913f8-5dda-4a62-9f0a-92bb86b00913.png"
   },
   {
     position: "Solutions Architecture Virtual Experience Program",
@@ -39,7 +40,8 @@ export const experience = [
     description: [
       "Designed and simple and scalable hosting architecture based on Elastic Beanstalk for a client experiencing significant growth and slow response times.",
       "Described my proposed architecture in plain language ensuring my client understood how it works and how costs will be calculated for it."
-    ]
+    ],
+    image: "/lovable-uploads/d2216ab5-6f38-4940-a21a-8527085d7446.png"
   }
 ];
 
@@ -93,16 +95,16 @@ export const certifications = [
     image: "/lovable-uploads/ce21e2ce-7a6a-4862-a48c-9b9a8f1fbfa4.png"
   },
   {
-    title: "Responsive Web Design",
-    issuer: "freeCodeCamp",
-    date: "February 25, 2025",
-    image: "/lovable-uploads/d7234afb-83f4-424b-a71a-0c217986b742.png"
+    title: "Solutions Architecture Job Simulation",
+    issuer: "AWS APAC",
+    date: "December 5, 2024",
+    image: "/lovable-uploads/d2216ab5-6f38-4940-a21a-8527085d7446.png"
   },
   {
-    title: "Data Science Ethics",
-    issuer: "University of Michigan (Coursera)",
-    date: "July 18, 2024",
-    image: "/lovable-uploads/e61a85dc-12b7-4e45-b889-367cc7f40eb0.png"
+    title: "Advanced Software Engineering Job Simulation",
+    issuer: "Walmart USA",
+    date: "December 5, 2024",
+    image: "/lovable-uploads/99b913f8-5dda-4a62-9f0a-92bb86b00913.png"
   },
   {
     title: "Complete Flutter Course - iOS/Android Apps",

@@ -33,7 +33,7 @@ const Experience = () => {
           </motion.p>
         </div>
 
-        <div className="relative max-w-3xl mx-auto">
+        <div className="relative max-w-6xl mx-auto">
           {/* Timeline Line */}
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:transform md:-translate-x-1/2" />
 
@@ -89,6 +89,27 @@ const Experience = () => {
                     </div>
                   </div>
                 </div>
+                
+                {/* Experience Image */}
+                {job.image && (
+                  <div className={`hidden lg:block w-full md:w-1/3 ${
+                    index % 2 === 0
+                      ? "md:pl-16"
+                      : "md:pr-16"
+                  }`}>
+                    <motion.div
+                      className="glass-card p-2 rounded-xl overflow-hidden"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <img 
+                        src={job.image} 
+                        alt={`${job.company} certificate`} 
+                        className="w-full h-auto rounded-lg object-cover"
+                      />
+                    </motion.div>
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}
