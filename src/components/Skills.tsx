@@ -5,13 +5,13 @@ import SkillModel from "./SkillModel";
 
 // Map for skill icons and colors
 const skillIcons = {
-  GitHub: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
-  React: "/lovable-uploads/1c715944-c74d-4ba8-b27a-747e9dfc4055.png", 
-  Flutter: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
-  VSCode: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
-  Docker: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
-  Java: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
-  Python: "/lovable-uploads/8835acc6-b87e-4e83-951f-670ecde61778.png",
+  GitHub: "/lovable-uploads/github.png",
+  React: "/lovable-uploads/react.png", 
+  Flutter: "/lovable-uploads/flutter_icon.png",
+  VSCode: "/lovable-uploads/vscode_icon.png",
+  Docker: "/lovable-uploads/docker_icon.png",
+  Java: "/lovable-uploads/java_icon.png",
+  Python: "/lovable-uploads/python.png",
 };
 
 const skillColors = {
