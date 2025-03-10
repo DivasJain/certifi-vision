@@ -1,5 +1,4 @@
 
-
 export const personalInfo = {
   name: "Divas Jain",
   title: "Full-Stack Developer",
