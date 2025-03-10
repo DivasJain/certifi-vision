@@ -27,7 +27,7 @@ const Certifications = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: a0.2, duration: 0.6 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
           >
             Professional courses and certifications I've completed.
           </motion.p>
