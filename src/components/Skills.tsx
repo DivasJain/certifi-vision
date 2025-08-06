@@ -29,11 +29,11 @@ const Skills = () => {
 
   const skillGroups = [
     { title: "Languages", skills: skills.languages },
-    { title: "Libraries", skills: skills.libraries },
     { title: "Frameworks", skills: skills.frameworks },
-    { title: "Dev Tools", skills: skills.devTools },
-    { title: "Databases", skills: skills.databases },
-    { title: "Operating Systems", skills: skills.os },
+    { title: "Libraries", skills: skills.libraries },
+    { title: "Tools", skills: skills.tools },
+    { title: "Databases/Cloud", skills: skills.databases },
+    { title: "Other Expertise", skills: skills.expertise },
     { title: "Soft Skills", skills: skills.softSkills },
     { title: "Areas of Interest", skills: skills.interests },
   ];

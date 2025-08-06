@@ -10,10 +10,23 @@ export const personalInfo = {
 };
 
 export const about = {
-  description: "I am a full-stack developer with a strong passion for using technology to solve real-world problems. I am proficient in a variety of programming languages and technologies, including Java, Python, Flutter, Machine Learning and Artificial Intelligence. I am also a quick learner and I am always eager to learn new things. I am confident that I can make a significant contribution to your team.",
+  description: "I am a Full Stack Developer currently working as a Technical Lead at M Cube Spaces, where I focus on building scalable e-commerce and B2B solutions. I specialize in Shopify custom development, React + Tailwind applications, automation scripts, and SEO optimization. My work bridges technology and design to deliver high-performing, premium digital experiences. I am passionate about solving complex problems and continuously improving my technical expertise.",
 };
 
 export const experience = [
+  {
+    position: "Technical Lead / Full Stack Developer",
+    company: "M Cube Spaces",
+    period: "Mar 2025 - Present",
+    description: [
+      "Led the complete revamp of the M Cube Spaces Shopify website with custom theme development, metafield structures, and dynamic inspiration galleries.",
+      "Optimized SEO for 500+ products, improving organic traffic significantly.",
+      "Developed a React + Tailwind microsite for MRM Woodcraft with dealer authentication and gated content.",
+      "Automated bulk product imports and metafield management using Python scripts.",
+      "Integrated Meta Ads, WhatsApp lead funnels, and Gupshup messaging for enhanced marketing performance.",
+      "Planned and executed B2B digital strategies, including dealer access systems and catalog download features."
+    ]
+  },
   {
     position: "Web Developer",
     company: "Amaze",
@@ -117,11 +130,11 @@ export const certifications = [
 
 export const skills = {
   languages: ["Java", "Python", "Dart", "C/C++", "HTML", "CSS", "JavaScript"],
-  libraries: ["Java", "Python", "React"],
-  frameworks: ["Flutter", "React"],
-  devTools: ["Git", "GitHub"],
+  frameworks: ["React", "Flutter", "Shopify Liquid"],
+  libraries: ["React", "Java", "Python"],
+  tools: ["Git", "GitHub", "AWS", "Vite"],
   databases: ["Firebase", "SQL", "AWS"],
-  os: ["Windows", "Linux", "Ubuntu", "MacOS"],
-  softSkills: ["Problem Solving", "Self-learning", "Presentation", "Adaptability"],
+  expertise: ["SEO Optimization", "Automation with Python", "Meta Ads Integration"],
+  softSkills: ["Problem Solving", "Adaptability", "Self-learning", "Presentation"],
   interests: ["Application Development", "Artificial Intelligence", "Deep Learning"]
 };
