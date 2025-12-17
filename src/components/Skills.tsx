@@ -30,12 +30,10 @@ const Skills = () => {
   const skillGroups = [
     { title: "Languages", skills: skills.languages },
     { title: "Frameworks", skills: skills.frameworks },
-    { title: "Libraries", skills: skills.libraries },
+    { title: "Cloud/DevOps", skills: skills.cloudDevOps },
+    { title: "Security Tools", skills: skills.securityTools },
+    { title: "Databases", skills: skills.databases },
     { title: "Tools", skills: skills.tools },
-    { title: "Databases/Cloud", skills: skills.databases },
-    { title: "Other Expertise", skills: skills.expertise },
-    { title: "Soft Skills", skills: skills.softSkills },
-    { title: "Areas of Interest", skills: skills.interests },
   ];
 
   return (
